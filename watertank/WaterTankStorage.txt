@@ -1,0 +1,28 @@
+lien du dataset : https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets
+
+Ce fichier contient les pistes explorées dans l'ordre chronologique :
+
+avant tout, on vérifie la présence de Nan, inf. pas de souci là-dessus
+
+
+Dans ce dataset, on étudie dans un premier temps les caractéristiques du dataset :
+-visualisation
+-chi square
+-correlation
+-répartition
+on observe directement que les données peuvent etre séparées facilement 
+
+puis dans un second temps, on applique des algorithmes de classif et ensuite de novelty detection
+On obtient notamment des bons scores avec :
+-LocalOutlierFactor => quantileTransformer
+-Random forest => quantileTransformer
+-StackingBoosting => quantileTransformer (adaboost, knn, decisiontree, extratress, grandientboost)
+
+
+
+dans ce notebook, on a pas testé :
+-pca
+-oversampling
+-undersampling
+-feature engineering => avec 20 variables c'est inutile
+-deep learning
