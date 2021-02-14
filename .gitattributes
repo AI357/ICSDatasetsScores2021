@@ -1,2 +1,5 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 dfPCA filter=lfs diff=lfs merge=lfs -text
+CtrainingtestAvecCorr2 filter=lfs diff=lfs merge=lfs -text
+Ctrainingtest1 filter=lfs diff=lfs merge=lfs -text
+ALLtrain filter=lfs diff=lfs merge=lfs -text
